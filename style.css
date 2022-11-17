@@ -194,6 +194,61 @@ textarea{
     background-color: white;
     color: red;
 }
+.get_email{
+    width: 20%;
+    min-width: 336px;
+}
+.connect{
+    width: 20%;
+    min-width: 265px;
+}
+.address{
+    width: 20%;
+    min-width: 265px;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+.footer_container h3{
+    color: white;
+}
+.email_1{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.email_1:focus{
+    color: green;
+}
+.email_2{
+    border: none;
+    padding: 5px;
+    background-color: chocolate;
+    color: black;
+}
+.social_icon{
+    color: white;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: chocolate;
+    margin-left: 5px;
+}
+.social_icon:hover{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    padding: 13px;
+    color: black;
+    background-color: lightblue;
+    transition-duration: 1s;
+}
 @media screen and (max-width: 760px){
     .nav_content{
         display: none;
@@ -216,6 +271,6 @@ textarea{
     }
     .content_box{
         justify-content: center;
-        width: 600px;
+        width: 400px;
     }
 }
